@@ -2,7 +2,7 @@
 
 After cloning this repo, you will need to install the dependencies:
 
-`cd ProjectName`
+`cd demo`
 
 `yarn install`
 
@@ -33,7 +33,7 @@ Also, you will need to modify your URL types in `Info`, follow [this](https://gi
 
 Finally, you will need to add `GoogleService-Info.plist` (file reference) to your iOS project via xcode.
 
-1. Open `tst_daniel_push_dev_19223.xcodeproj`in xcode.
+1. Open `demo.xcodeproj`in xcode.
 2. Go to main target > Build Phases > Copy Bundle resources
 3. Tap un add button
 4. Search the `GoogleService-Info.plist`inside `ios` folder.

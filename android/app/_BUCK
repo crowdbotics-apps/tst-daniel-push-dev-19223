@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.tst_daniel_push_dev_19223",
+    package = "com.demo",
 )
 
 android_resource(
     name = "res",
-    package = "com.tst_daniel_push_dev_19223",
+    package = "com.demo",
     res = "src/main/res",
 )
 
